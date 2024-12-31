@@ -1,9 +1,12 @@
-    
-            </div>
-         </div>
-         <br>
 
-<!-- footer section end -->
+</div>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<div class="footer_section">
+         
+
+      <!-- footer section end -->
       <!-- copyright section start -->
       <div class="copyright_section">
          <div class="container">
@@ -16,7 +19,7 @@
       <script src="../Assets/Templates/Main/js/popper.min.js"></script>
       <script src="../Assets/Templates/Main/js/bootstrap.bundle.min.js"></script>
       <script src="../Assets/Templates/Main/js/jquery-3.0.0.min.js"></script>
-      <script src="../Assets/Templates/Main/js/plugin.js"></script>
+      <!-- <script src="../Assets/Templates/Main/js/plugin.js"></script> -->
       <!-- sidebar ../Assets/Templates/Main/-->
       <script src="../Assets/Templates/Main/js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="../Assets/Templates/Main/js/custom.js"></script>

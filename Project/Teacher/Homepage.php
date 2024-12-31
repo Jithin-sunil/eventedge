@@ -35,7 +35,7 @@
       <div class="header_section">
          <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <div class="logo"><a href="index.html"><img src="../Assets/Templates/Main/images/logo.png"></a></div>
+                <!-- <div class="logo"><a href="index.html"><img src="../Assets/Templates/Main/images/logo.png"></a></div> -->
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
@@ -50,7 +50,9 @@
                      <li class="nav-item">
                         <a class="nav-link" href="AssignedEvent.php">My Event</a>
                      </li>
-                     
+                     <li class="nav-item">
+                        <a class="nav-link" href="ViewEvents.php">View Events</a>
+                     </li>
                      
                      <li class="nav-item">
                         <a class="nav-link" href="ViewRequest.php">Request</a>
@@ -123,8 +125,8 @@
                               <div class="row">
                                  <div class="col-md-6">
                                     <div class="banner_taital_main">
-                                       <h3 class="banner_text">Hello Am <br>Joy Sen</h3>
-                                       <h1 class="banner_taital">UI/UX Designer</h1>
+                                       <h3 class="banner_text"> <br></h3>
+                                       <h1 class="banner_taital"></h1>
                                     </div>
                                  </div>
                                  <div class="col-md-6">
@@ -145,8 +147,8 @@
                               <div class="row">
                                  <div class="col-md-6">
                                     <div class="banner_taital_main">
-                                       <h3 class="banner_text">Hello Am <br>Joy Seno</h3>
-                                       <h1 class="banner_taital">UI/UX Designer</h1>
+                                       <h3 class="banner_text"> <br></h3>
+                                       <h1 class="banner_taital"></h1>
                                     </div>
                                  </div>
                                  <div class="col-md-6">
@@ -168,7 +170,7 @@
             </section>
             <div class="container">
                <div class="video_bt">
-                  <div class="play_icon"><img src="../Assets/Templates/Main/images/play-icon.png"></div>
+                  <!-- <div class="play_icon"><img src="../Assets/Templates/Main/images/play-icon.png"></div> -->
                </div>
             </div>
          </div>
@@ -176,7 +178,7 @@
       </div>
       <!-- header section end -->
       <!-- services section start -->
-      <div class="services_section layout_padding">
+      <!-- <div class="services_section layout_padding">
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
@@ -227,10 +229,10 @@
                <div class="readmore_bt"><a href="#">Read More</a></div>
             </div>
          </div>
-      </div>
+      </div> -->
       <!-- services section end -->
       <!-- portfolio section start -->
-      <div class="portfolio_section layout_padding">
+      <!-- <div class="portfolio_section layout_padding">
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
@@ -309,10 +311,10 @@
             </div>
             <div class="seemore_bt"><a href="#">See More</a></div>
          </div>
-      </div>
+      </div> -->
       <!-- portfolio section end -->
       <!-- blog section start -->
-      <div class="blog_section layout_padding">
+      <!-- <div class="blog_section layout_padding">
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
@@ -357,10 +359,10 @@
                <div class="readmore_bt_1"><a href="#">Read More</a></div>
             </div>
          </div>
-      </div>
+      </div> -->
       <!-- blog section end -->
       <!-- contact section start -->
-      <div class="contact_section layout_padding">
+      <!-- <div class="contact_section layout_padding">
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
@@ -381,41 +383,41 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
       <!-- contact section end -->
       <!-- project box section start -->
-      <div class="project_box">
+      <!-- <div class="project_box">
          <div class="container">
             <div class="project_main">
                <h1 class="hire_text">Hire me for your projects</h1>
                <div class="callnow_bt"><a href="#">Call Now</a></div>
             </div>
          </div>
-      </div>
+      </div> -->
       <!-- project box section end -->
       <!-- footer section start -->
       <div class="footer_section">
          <div class="container">
             <div class="location_text">
                <ul>
-                  <li>
+                  <!-- <li>
                      <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
-                  </li>
-                  <li>
+                  </li> -->
+                  <!-- <li>
                      <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
                   </li>
                   <li>
                      <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                  </li>
+                  </li> -->
                </ul>
             </div>
-         </div>
-      </div>
+         </div> 
+      <!-- </div>
       <!-- footer section end -->
       <!-- copyright section start -->
       <div class="copyright_section">
          <div class="container">
-            <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free Html Templates</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a></p>
+            <p class="copyright_text">WELCOME TO EVENT EDGE,A CUTTING EDGE EVENT MANAGEMENT SYSTEM DESIGNED TO ELEVATE THE CAMPUS EXPERIENCE</p>
          </div>
       </div>
       <!-- copyright section end -->

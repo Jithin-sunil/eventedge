@@ -92,7 +92,7 @@ if (isset($_GET['rid'])) {
                             <td><?php echo $row['department_name']; ?></td>
                             <td>
                                 <a href="Verified.php?rid=<?php echo $row['teacher_id']; ?>" class="btn btn-danger btn-sm btn-action">Reject</a>
-                                <a href="AssignTeacher.php?aid=<?php echo $row['teacher_id']; ?>" class="btn btn-primary btn-sm btn-action">Assign</a>
+                               
                             </td>
                         </tr>
                     <?php

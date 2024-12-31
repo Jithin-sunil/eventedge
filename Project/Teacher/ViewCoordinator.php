@@ -2,10 +2,7 @@
 include("../Assets/Connection/Connection.php");
 include('Head.php');
 ?>
-<br><br><br>
-<br><br><br>
-<br><br><br>
-<br><br><br>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -15,7 +12,7 @@ include('Head.php');
 
 <body>
 <form id="form1" name="form1" method="post" action="">
-  <table width="200" border="1">
+  <table width="200" border="1" align="center">
     <tr>
       <td>#</td>
       <td>Name</td>

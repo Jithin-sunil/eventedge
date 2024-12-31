@@ -1,7 +1,3 @@
-<?php 
-include("SessionValidation.php");
-?>
-
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -45,31 +41,30 @@ include("SessionValidation.php");
                </button>
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                        <a class="nav-link" href="Homepage.php">Home</a>
+                     <li class="nav-item">
+                        <a class="nav-link" href="../index.php">Home</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="MyProfile.php">Profile</a>
+                        <a class="nav-link" href="Teacher.php">TEACHER</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="AssignedEvent.php">My Event</a>
+                        <a class="nav-link" href="student.php">STUDENT</a>
+                     </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Login.php">LOGIN</a>
+                     <!--</li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="ViewEvents.php">View Event</a>
-                     </li>
-                     
-                     <li class="nav-item">
-                        <a class="nav-link" href="ViewRequest.php">Request</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="../Logout.php">Logout</a>
-                     </li>
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                     </li> -->
                   </ul>
                </div>
             </nav>
          </div>
          <!-- banner section start -->
 
-         <div class="container" >
+         <div class="container">
               
           <br>

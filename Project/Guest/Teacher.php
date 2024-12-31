@@ -1,5 +1,6 @@
 <?php
 include('../Assets/Connection/Connection.php');
+include("Head.php");
 if (isset($_POST['btn_submit'])) {
     $teacher = $_POST['txt_name'];
     $teachercontact = $_POST['txt_contact'];
@@ -33,26 +34,46 @@ if (isset($_POST['btn_submit'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teacher Registration</title>
-    <!-- Bootstrap CSS -->
+    <title>Teacher Registration - Landscape Layout</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             background-color: #f8f9fa;
         }
+        .containers {
+            max-width: 1000px;
+            margin: 50px auto;
+        }
         .registration-form {
-            max-width: 400px; /* Reduced width */
-            margin: 50px auto; /* Center the form */
-            padding: 20px; /* Adjusted padding */
-            background-color: #ffffff;
+            background-color:  #b9b7e8f0;
+            padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .form-group {
+            width: 48%; /* Adjust form field width for two-column layout */
+            margin-right: 2%;
+        }
+        .form-group:nth-child(even) {
+            margin-right: 0;
+        }
+        .form-group.text-center {
+            width: 100%; /* Full width for the button */
+        }
+        @media (max-width: 768px) {
+            .form-group {
+                width: 100%; /* Full width on smaller screens */
+                margin-right: 0;
+            }
         }
     </style>
 </head>
 
 <body>
-    <div class="container">
+    <div class="containers">
         <h2 class="text-center my-4">Teacher Registration</h2>
         <form action="" method="post" enctype="multipart/form-data" name="form1" id="form1" class="registration-form">
             <div class="form-group">
@@ -101,8 +122,11 @@ if (isset($_POST['btn_submit'])) {
     </div>
 
     <!-- Bootstrap JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+<?php 
+include("Foot.php");
+?>

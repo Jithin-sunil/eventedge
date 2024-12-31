@@ -7,11 +7,12 @@ include('Head.php');
 if (isset($_GET['aid'])) {
     $update = "UPDATE tbl_request SET request_status='1', coordinator_id='".$_SESSION['cid']."' WHERE request_id='" . $_GET["aid"] . "'";
     if ($con->query($update)) {
-        echo "
+      ?>
         <script>
         alert('Accepted');
-        window.location='ViewRequest.php?eid=<?php echo $_GET[eid] ?>';
-        </script>";
+        window.location='ViewRequest.php?eid=<?php echo $_GET['eid'] ?>';
+        </script>
+        <?php
     }
 }
 
@@ -19,11 +20,12 @@ if (isset($_GET['aid'])) {
 if (isset($_GET['rid'])) {
     $updat = "UPDATE tbl_request SET request_status='2' ,  coordinator_id='".$_SESSION['cid']."'  WHERE request_id='" . $_GET["rid"] . "'";
     if ($con->query($updat)) {
-        echo "
+        ?>
         <script>
         alert('Rejected');
-        window.location='ViewRequest.php';
-        </script>";
+        window.location='ViewRequest.php?eid=<?php echo $_GET['eid'] ?>';
+        </script>
+        <?php
     }
 }
 
@@ -109,9 +111,9 @@ if (isset($_GET['rid'])) {
                             <td><?php echo htmlspecialchars($row['event_name']); ?></td>
                             <td>
                                 <?php if ($row['request_status'] == 0) { ?>
-                                    <a href="ViewRequest.php?aid=<?php echo $row["request_id"]; ?>"
+                                    <a href="ViewRequest.php?aid=<?php echo $row["request_id"]; ?>&eid=<?php echo $_GET['eid'] ?>"
                                         class="btn btn-success btn-sm">Accept</a>
-                                    <a href="ViewRequest.php?rid=<?php echo $row["request_id"]; ?>"
+                                    <a href="ViewRequest.php?rid=<?php echo $row["request_id"]; ?>&eid=<?php echo $_GET['eid'] ?>"
                                         class="btn btn-danger btn-sm">Reject</a>
                                 <?php } else if ($row['request_status'] == 1) { ?>
                                         

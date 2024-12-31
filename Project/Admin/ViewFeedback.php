@@ -42,7 +42,7 @@ include('Head.php');
         <thead class="table-dark">
             <tr>
                 <th>#</th>
-                <th>Name</th>
+                
                 <th>Content</th>
             </tr>
         </thead>
@@ -56,8 +56,8 @@ include('Head.php');
                 $i++;
                 echo "<tr>
                         <td>$i</td>
-                        <td>{$row['name']}</td>
-                        <td>{$row['content']}</td>
+                        
+                        <td>{$row['feedback_content']}</td>
                       </tr>";
             }
             if ($i == 0) {

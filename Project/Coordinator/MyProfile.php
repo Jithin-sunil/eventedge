@@ -5,7 +5,7 @@ include('Head.php');
 
 $selqry = "SELECT * FROM tbl_coordinator c INNER JOIN  tbl_student s 
            INNER JOIN tbl_course co ON s.course_id = co.course_id 
-           INNER JOIN tbl_department d ON c.department_id = d.department_id 
+           INNER JOIN tbl_department d ON co.department_id = d.department_id 
            WHERE c.coordinator_id='" . $_SESSION["cid"] . "'";
 
 $result = $con->query($selqry);
@@ -90,7 +90,7 @@ $row = $result->fetch_assoc();
                         <td><?php echo $row['course_name']; ?></td>
                     </tr>
                     <tr class="text-center">
-                        <td colspan="2" class="btn-group">
+                        <td colspan="2" align="center" class="btn-group">
                             <a href="EditProfile.php" class="btn btn-primary btn-sm">Edit Profile</a>
                             <a href="ChangePassword.php" class="btn btn-secondary btn-sm">Change Password</a>
                         </td>
